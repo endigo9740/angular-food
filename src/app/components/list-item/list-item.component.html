@@ -1,7 +1,7 @@
-<section id="compListItem" (click)="onEatFood()">
+<section id="compListItem">
     <span class="icon">{{food.icon}}</span>
     <span class="name">{{food.name}}</span>
     <span class="button">
-        <button>Eat!</button>
+        <button (click)="onEatFood()">Eat!</button>
     </span>
 </section>
