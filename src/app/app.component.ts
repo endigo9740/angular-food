@@ -11,8 +11,4 @@ export class AppComponent {
     constructor(
         public foodService: FoodService
     ) {}
-
-    triggerEatFood(i: number): void {
-        this.foodService.eatFood(i);
-    }
 }

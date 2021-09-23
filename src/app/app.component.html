@@ -4,7 +4,7 @@
         <!-- List -->
         <ul>
             <li *ngFor="let f of foodService.favorites; index as i">
-                <app-list-item [food]="f" (click)="triggerEatFood(i)"></app-list-item>
+                <app-list-item [food]="f" [index]="i"></app-list-item>
             </li>
         </ul>
         <!-- Message -->
