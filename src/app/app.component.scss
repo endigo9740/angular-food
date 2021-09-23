@@ -1,11 +1,6 @@
 #app {
     display: flex; justify-content: center; align-items: center;
     width: 100%; height: 100%;
-    h1 {margin-bottom: 20px;}
-    ul {
-        li {list-style: none;}
-        li+li {margin-top: 20px;}
-    }
     #window {background: rgba(0,0,0,0.25); border-radius: 8px; padding: 50px;}
     #message {margin-top: 20px;}
 }
